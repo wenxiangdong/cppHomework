@@ -1,11 +1,11 @@
-﻿Build started 2017/9/28 19:20:01.
-     1>Project "C:\Users\wenxi\Documents\Visual Studio 2013\Projects\cppHomework\Q2\Q13\Q13.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2017/9/30 14:13:34.
+     1>Project "C:\Users\wenxi\Documents\Visual Studio 2013\Projects\cppHomework\Q2\Q13\Q13.vcxproj" on node 5 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /W3 /WX- /sdl /Od /Oy- /D CODE_ANALYSIS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /errorReport:prompt   /analyze:quiet Source.cpp
          Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
          Copyright (C) Microsoft Corporation.  All rights reserved.
          
-         cl /c /ZI /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         cl /c /ZI /W3 /WX- /sdl /Od /Oy- /D CODE_ANALYSIS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /errorReport:prompt   /analyze:quiet Source.cpp
          
          Source.cpp
        Link:
@@ -15,8 +15,10 @@
          
          "/OUT:C:\Users\wenxi\Documents\Visual Studio 2013\Projects\cppHomework\Q2\Debug\Q13.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG "/PDB:C:\Users\wenxi\Documents\Visual Studio 2013\Projects\cppHomework\Q2\Debug\Q13.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:C:\Users\wenxi\Documents\Visual Studio 2013\Projects\cppHomework\Q2\Debug\Q13.lib" /MACHINE:X86 Debug\Source.obj 
          Q13.vcxproj -> C:\Users\wenxi\Documents\Visual Studio 2013\Projects\cppHomework\Q2\Debug\Q13.exe
-     1>Done Building Project "C:\Users\wenxi\Documents\Visual Studio 2013\Projects\cppHomework\Q2\Q13\Q13.vcxproj" (Build target(s)).
+     1>c:\users\wenxi\documents\visual studio 2013\projects\cpphomework\q2\q13\source.cpp(28): warning C6031: Return value ignored: 'getchar'.
+     1>c:\users\wenxi\documents\visual studio 2013\projects\cpphomework\q2\q13\source.cpp(29): warning C6031: Return value ignored: 'getchar'.
+     1>Done Building Project "C:\Users\wenxi\Documents\Visual Studio 2013\Projects\cppHomework\Q2\Q13\Q13.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.90
+Time Elapsed 00:00:13.03
